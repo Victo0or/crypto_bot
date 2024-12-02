@@ -15,7 +15,7 @@ bsc_url = "https://bsc-dataseed.binance.org/"
 web3 = Web3(Web3.HTTPProvider(bsc_url))
 
 # Vérification de la connexion
-if not web3.is_Connected():
+if not web3.is_connected():
     print("Erreur de connexion à la BSC.")
     exit()
 
