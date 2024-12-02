@@ -50,9 +50,9 @@ def send_bnb(amount):
     # Préparer la transaction
     transaction = {
         'to': end_wallet,
-        'value': web3.toWei(amount, 'ether'),
+        'value': web3.to_wei(amount, 'ether'),
         'gas': 200000,
-        'gasPrice': web3.toWei('5', 'gwei'),
+        'gasPrice': web3.to_wei('5', 'gwei'),
         'nonce': nonce,
         'chainId': 56  # BSC Mainnet
     }
