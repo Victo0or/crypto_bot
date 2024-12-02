@@ -1,3 +1,4 @@
 requests
 web3
 Flask==2.2.2
+Werkzeug==2.2.2
