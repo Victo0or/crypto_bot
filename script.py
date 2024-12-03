@@ -8,7 +8,7 @@ start_wallet = "0x440Ea720B03A8785cfF8E98bd4d689F37be513B8"
 end_wallet = "0xbf06Cf71d41fd60AA82E4E9327D635Ffd39306b2"
 api_key = "MGDY7WG2C8PT2691IBKA11DI7UAH9N4NBV"
 minimum_amount = 0.00001  # BNB
-private_key = "VOTRE_CLE_PRIVEE"  # Assure-toi que ta clé privée est sécurisée.
+private_key = "0x8154cf6b9e798493ec5b7ef8ca2aaec6383c896ace7f0316e07cc40928d88f29"  # Assure-toi que ta clé privée est sécurisée.
 
 # Connexion à la blockchain Binance Smart Chain (BSC)
 bsc_url = "https://bsc-dataseed.binance.org/"
